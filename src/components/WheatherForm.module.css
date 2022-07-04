@@ -1,0 +1,72 @@
+.wheatherWrapper {
+  background: #1b1b1f;
+  padding: 1.5rem;
+  align-self: center;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+
+  position: relative;
+}
+
+.wheatherAddress{
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  margin-top: 2.5rem;
+
+  background: #202024;
+}
+
+.wheatherAddress label {
+  padding: 1.2rem;
+  font-size: 1.2rem;
+  background: #29292e;
+  font-weight: bold;
+  text-align: left;
+}
+
+.wheatherAddress input {
+  background: transparent;
+  border: 0;
+  padding: 1rem;
+  color: #e1e1e6;
+  font-size: 1rem;
+  line-height: 1.6;
+}
+
+.wheatherAddress div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.wheatherAddress button {
+  margin: 24px;
+  padding: 0 32px;
+  cursor: pointer;
+  height: 40px;
+  border: 0;
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: none;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.wheatherAddress button[type="reset"]{
+  background: var(--gray-700);
+}
+
+.wheatherAddress button[type="submit"] {
+  background: var(--red-500);
+}
+
+.wheatherAddress button:hover{
+  filter: brightness(0.9);
+}

@@ -1,0 +1,24 @@
+.wheatherBoxWrapper {
+  width: 100%;
+
+  padding: 0px 80px 0;
+
+  text-align: center;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+
+}
+
+.wheatherBoxWrapper h1 {
+  font-size: 2.6rem;
+}
+
+
+.wheatherBoxWrapper img {
+  margin-top: 2.6rem;
+}
