@@ -9,7 +9,6 @@ export function WheatherBox() {
       <p>Search a address or enable your location.</p>
       
       <img src={WheatherImage} width="500px" alt="" />
-      
 
     </div>
   )

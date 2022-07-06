@@ -17,7 +17,7 @@ export function WheatherForm() {
     <>
       <div className={styles.wheatherWrapper}>
         <form className={styles.wheatherAddress} onSubmit={handleSearchAddress}>
-          
+          <legend>Put your location or some other.</legend>
           <label htmlFor="zipcode">Zipcode</label>
           <input 
             name="zipcode"
@@ -45,7 +45,7 @@ export function WheatherForm() {
               reset
             </button>
             <button type="submit">
-              Search <BiCurrentLocation size={20} />
+              Search  <BiCurrentLocation size={20} />
             </button>
 
           </div>
